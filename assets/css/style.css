@@ -1906,7 +1906,30 @@ body:not(.dsn-line-style).nav-bg.hide-nav .site-header {
 }
 .box-social li a {
   color: var(--heading-color);
-  width: 100%;
+  width: 100%;  
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+}
+.box-social a::after {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.box-social a:hover::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 /** === Footer menu === */
