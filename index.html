@@ -14,7 +14,7 @@
     />
 
     <!--  Title -->
-    <title>Run & Co</title>
+    <title>Dsign Grid</title>
 
     <!-- Font Google -->
     <link
@@ -34,7 +34,37 @@
       href="assets/img/favicon.ico"
       type="image/x-icon"
     />
+<style>
+  .box-social a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
 
+.box-social a::after {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.box-social a:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+</style>
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <link rel="preload" href="assets/img/circle-dotted.png" as="image" />
@@ -56,8 +86,8 @@
       </div>
 
       <h1 class="title v-middle">
-        <span class="text-strok">Run & Co</span>
-        <span class="text-fill">Run & Co</span>
+        <span class="text-strok">Dsn Grid</span>
+        <span class="text-fill">Dsn Grid</span>
       </h1>
     </div>
     <!-- ========== End Loading Page ========== -->
@@ -664,7 +694,7 @@
                           <h5 class="number background-section p-10">
                             <span class="has-animate-number title">06</span>
                             <span class="sm-title-block"
-                              >SUTISFIED <br />
+                              >SATISFIED <br />
                               CUSTOMERS</span
                             >
                           </h5>
@@ -820,7 +850,7 @@
                           </svg>
                         </div>
                         <div class="service-description">
-                          <h4 class="title-block mb-15">ALML Development</h4>
+                          <h4 class="title-block mb-15">AIML Development</h4>
                           <p>
                             We develop AI/ML solutions that continuously learn
                             from data, adapt to new information, and help
@@ -1148,13 +1178,14 @@
                 </div>
 
                 <p class="mb-10">
-                  Most of our writings have centered on implementing strategies
-                  for business units, with their unique
+                  Most of our work is centered around developing 
+                  customized digital strategies, designed to meet 
+                  the unique needs of each client for optimal results
                 </p>
                 <p>
                   Design and launch exceptional websites with our expert
                   services. We craft custom, high-impact sites that drive
-                  engagement and showcase your brand effectively.
+                  engagement and showcase your brand effectively
                 </p>
 
                 <a
@@ -1186,7 +1217,7 @@
                   <span class="line-bg-right"> Our Works </span>
                 </p>
                 <h2 class="section-title title-cap">
-                  Creative Portfolio <br />Designs
+                  Creative Portfolio <br />Works
                 </h2>
               </div>
 
@@ -1675,7 +1706,7 @@
                           data-dsn-duration="170%"
                           data-dsn-move="0%"
                         >
-                          Eremia
+                          Dsn Grid
                         </div>
 
                         <div
@@ -1698,14 +1729,14 @@
                               >
                                 <span class="number">1</span>
                                 <h4 class="sm-title-block">
-                                  Extensive Employment
+                                  Strategic Planning
                                 </h4>
                               </div>
                               <div class="accordion__answer active">
                                 <p>
-                                  Quisque placerat vitae lacus ut sceleris
-                                  queusce luctus odio ac nibh luctus, in
-                                  porttitor.
+                                  We start by defining your project goals and 
+                                  requirements, creating a clear and 
+                                  actionable plan to guide the development process.
                                 </p>
                               </div>
                             </div>
@@ -1714,13 +1745,13 @@
                                 class="accordion__question d-flex align-items-center p-relative"
                               >
                                 <span class="number">2</span>
-                                <h4 class="sm-title-block">Dedicated Staff</h4>
+                                <h4 class="sm-title-block">Innovative Design & Development</h4>
                               </div>
                               <div class="accordion__answer">
                                 <p>
-                                  Quisque placerat vitae lacus ut sceleris
-                                  queusce luctus odio ac nibh luctus, in
-                                  porttitor.
+                                  We design visually stunning and functional website concepts, 
+                                  building and refining them to 
+                                  perfectly match your vision and needs.
                                 </p>
                               </div>
                             </div>
@@ -1734,10 +1765,9 @@
                               </div>
                               <div class="accordion__answer">
                                 <p>
-                                  Cepteur sint occaecat cupidatat proident,
-                                  taken possession of my entire soul, like these
-                                  sweet mornings of spring which I enjoy with my
-                                  whole.
+                                  We focus on delivering an exceptional user experience, 
+                                  finalizing the website with smooth functionality and 
+                                  preparing it for a successful launch.
                                 </p>
                               </div>
                             </div>
@@ -1750,253 +1780,6 @@
               </div>
             </div>
             <!-- ========== End box vertical Section ========== -->
-
-            <!-- ========== blog Section ========== -->
-            <section
-              class="our-blog section-margin p-relative dsn-swiper"
-              data-dsn-animate="section"
-              data-dsn-option='{"slidesPerView":1.5  }'
-              data-dsn-title="Lasts post"
-            >
-              <div
-                class="container mb-70 d-flex text-center flex-column align-items-center"
-              >
-                <p class="sub-heading line-shap line-shap-before mb-15">
-                  <span class="line-bg-right"> Lasts post </span>
-                </p>
-                <h2 class="section-title title-cap">
-                  Latest And Greatest <br />Post
-                </h2>
-              </div>
-
-              <div class="dsn-container">
-                <div class="swiper-container">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide blog-classic-item">
-                      <div
-                        class="blog-item p-relative d-flex align-items-center h-100 w-100"
-                        data-swiper-parallax-scale="0.85"
-                      >
-                        <div class="box-meta">
-                          <div class="entry-date">
-                            <span class="author">Dsn Grid</span>
-                            <a href="#">March , 17th 2020</a>
-                          </div>
-                        </div>
-
-                        <div class="box-img over-hidden">
-                          <img
-                            class="cover-bg-img"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-dsn-src="assets/img/blog/1.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="box-content p-relative">
-                          <div class="box-content-body">
-                            <div class="metas">
-                              <span class="mb-5">Lifestyle</span>
-                            </div>
-                            <h4 class="title-block mb-20">
-                              <a href="#"
-                                >Extreme Athleticism Is the New Midlife
-                                Crisis</a
-                              >
-                            </h4>
-                            <p>
-                              Whoever said “It’s not about the destination. It’s
-                              the journey” never flew on a long ...
-                            </p>
-                            <a href="#" class="link-vist p-relative mt-20">
-                              <span class="link-vist-text">Load More</span>
-
-                              <div class="link-vist-arrow">
-                                <svg viewbox="0 0 80 80">
-                                  <polyline
-                                    points="19.89 15.25 64.03 15.25 64.03 59.33"
-                                  ></polyline>
-                                  <line
-                                    x1="64.03"
-                                    y1="15.25"
-                                    x2="14.03"
-                                    y2="65.18"
-                                  ></line>
-                                </svg>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="swiper-slide blog-classic-item">
-                      <div
-                        class="blog-item p-relative d-flex align-items-center h-100 w-100"
-                        data-swiper-parallax-scale="0.85"
-                      >
-                        <div class="box-meta">
-                          <div class="entry-date">
-                            <span class="author">Dsn Grid</span>
-                            <a href="#">March , 17th 2020</a>
-                          </div>
-                        </div>
-
-                        <div class="box-img over-hidden">
-                          <img
-                            class="cover-bg-img"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-dsn-src="assets/img/blog/2.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="box-content p-relative">
-                          <div class="box-content-body">
-                            <div class="metas">
-                              <span class="mb-5">Travel</span>
-                            </div>
-                            <h4 class="title-block mb-20">
-                              <a href="#"
-                                >The Day I Lost My Child in Charles de Gaulle
-                                Airport</a
-                              >
-                            </h4>
-                            <p>
-                              Whoever said “It’s not about the destination. It’s
-                              the journey” never flew on a long ...
-                            </p>
-                            <a href="#" class="link-vist p-relative mt-20">
-                              <span class="link-vist-text">Load More</span>
-
-                              <div class="link-vist-arrow">
-                                <svg viewbox="0 0 80 80">
-                                  <polyline
-                                    points="19.89 15.25 64.03 15.25 64.03 59.33"
-                                  ></polyline>
-                                  <line
-                                    x1="64.03"
-                                    y1="15.25"
-                                    x2="14.03"
-                                    y2="65.18"
-                                  ></line>
-                                </svg>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide blog-classic-item">
-                      <div
-                        class="blog-item p-relative d-flex align-items-center h-100 w-100"
-                        data-swiper-parallax-scale="0.85"
-                      >
-                        <div class="box-meta">
-                          <div class="entry-date">
-                            <span class="author">Dsn Grid</span>
-                            <a href="#">March , 17th 2020</a>
-                          </div>
-                        </div>
-
-                        <div class="box-img over-hidden">
-                          <img
-                            class="cover-bg-img"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-dsn-src="assets/img/blog/3.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="box-content p-relative">
-                          <div class="box-content-body">
-                            <div class="metas">
-                              <span class="mb-5">Health</span>
-                            </div>
-                            <h4 class="title-block mb-20">
-                              <a href="#"
-                                >Relationships Aren’t Easy, But They’re Worth
-                                It</a
-                              >
-                            </h4>
-                            <p>
-                              Whoever said “It’s not about the destination. It’s
-                              the journey” never flew on a long ...
-                            </p>
-                            <a href="#" class="link-vist p-relative mt-20">
-                              <span class="link-vist-text">Load More</span>
-
-                              <div class="link-vist-arrow">
-                                <svg viewbox="0 0 80 80">
-                                  <polyline
-                                    points="19.89 15.25 64.03 15.25 64.03 59.33"
-                                  ></polyline>
-                                  <line
-                                    x1="64.03"
-                                    y1="15.25"
-                                    x2="14.03"
-                                    y2="65.18"
-                                  ></line>
-                                </svg>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="dsn-pagination mt-30 dsn-container d-flex justify-content-between"
-                  >
-                    <div class="swiper-next">
-                      <div class="next-container">
-                        <div class="container-inner">
-                          <div class="triangle"></div>
-                          <svg
-                            class="circle"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewbox="0 0 24 24"
-                          >
-                            <g
-                              class="circle-wrap"
-                              fill="none"
-                              stroke-width="1"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                            >
-                              <circle cx="12" cy="12" r="10.5"></circle>
-                            </g>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-prev">
-                      <div class="prev-container">
-                        <div class="container-inner">
-                          <div class="triangle"></div>
-                          <svg
-                            class="circle"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewbox="0 0 24 24"
-                          >
-                            <g
-                              class="circle-wrap"
-                              fill="none"
-                              stroke-width="1"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                            >
-                              <circle cx="12" cy="12" r="10.5"></circle>
-                            </g>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- ========== End blog Section ========== -->
 
             <!-- ========== team Section ========== -->
             <section
@@ -2022,18 +1805,18 @@
                             <img
                               class="cover-bg-img"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                              data-dsn-src="assets/img/team/1.jpg"
+                              data-dsn-src="assets/img/team/FO.jpg"
                               alt=""
                             />
                           </div>
                           <div class="box-text">
-                            <h4 class="sm-title-block mb-5">Ahmed Shawky</h4>
-                            <h5 class="theme-color">Co-Founder / Design</h5>
+                            <h4 class="sm-title-block mb-5">Timir Bhingradiya</h4>
+                            <h5 class="theme-color">Founder, Designer & Developer</h5>
 
                             <ul class="box-social mt-20">
-                              <li data-dsn="parallax"><a href="#">FB</a></li>
-                              <li data-dsn="parallax"><a href="#">TW</a></li>
-                              <li data-dsn="parallax"><a href="#">LN</a></li>
+                              <li data-dsn="parallax"><a href="https://www.linkedin.com/in/timir-bhingradiya-b130a6218/" title="Connect with me on LinkedIn" target="_blank">LN</a></li>
+                              <li data-dsn="parallax"><a href="https://www.behance.net/timirbhingra" title="View my work on Behance" target="_blank">BH</a></li>
+                              <li data-dsn="parallax"><a href="https://github.com/TTimir" title="Check out my GitHub" target="_blank">GH</a></li>
                             </ul>
                           </div>
                         </div>
@@ -2049,18 +1832,18 @@
                             <img
                               class="cover-bg-img"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                              data-dsn-src="assets/img/team/2.jpg"
+                              data-dsn-src="assets/img/team/CO.jpeg"
                               alt=""
                             />
                           </div>
                           <div class="box-text">
-                            <h4 class="sm-title-block mb-5">Hisham Megahed</h4>
-                            <h5 class="theme-color">Creative Director</h5>
+                            <h4 class="sm-title-block mb-5">Vatsal Mangukiya</h4>
+                            <h5 class="theme-color">Co-Founder, Developer & Creative Director</h5>
 
                             <ul class="box-social mt-20">
-                              <li data-dsn="parallax"><a href="#">FB</a></li>
-                              <li data-dsn="parallax"><a href="#">TW</a></li>
-                              <li data-dsn="parallax"><a href="#">LN</a></li>
+                              <li data-dsn="parallax"><a href="https://www.linkedin.com/in/vatsal-mangukiya-3b0370208/" title="Connect with me on LinkedIn" target="_blank">LN</a></li>
+                              <li data-dsn="parallax"><a href="https://github.com/vats147" title="Check out my GitHub" target="_blank">GH</a></li>
+                              <!-- <li data-dsn="parallax"><a href="#">LN</a></li> -->
                             </ul>
                           </div>
                         </div>
@@ -2076,18 +1859,17 @@
                             <img
                               class="cover-bg-img"
                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                              data-dsn-src="assets/img/team/3.jpg"
+                              data-dsn-src="assets/img/team/IMG_7994.jpg"
                               alt=""
                             />
                           </div>
                           <div class="box-text">
-                            <h4 class="sm-title-block mb-5">Jeremy Smith</h4>
-                            <h5 class="theme-color">Creative Studio Head</h5>
+                            <h4 class="sm-title-block mb-5">Smit Bhuva</h4>
+                            <h5 class="theme-color">Head of Creative Design & Branding</h5>
 
                             <ul class="box-social mt-20">
-                              <li data-dsn="parallax"><a href="#">FB</a></li>
-                              <li data-dsn="parallax"><a href="#">TW</a></li>
-                              <li data-dsn="parallax"><a href="#">LN</a></li>
+                              <li data-dsn="parallax"><a href="https://www.linkedin.com/in/smit-bhuva-0589471b3/" title="Connect with me on LinkedIn" target="_blank">LN</a></li>
+                              <li data-dsn="parallax"><a href="https://github.com/Smit-B" title="Check out my GitHub" target="_blank">GH</a></li>
                             </ul>
                           </div>
                         </div>
@@ -2095,86 +1877,6 @@
                     </div>
                   </div>
 
-                  <div class="team-item">
-                    <div class="team-item-inner">
-                      <div class="team-item-wapper background-section">
-                        <div class="item-content d-flex a-item-center">
-                          <div class="box-img">
-                            <img
-                              class="cover-bg-img"
-                              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                              data-dsn-src="assets/img/team/2.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <div class="box-text">
-                            <h4 class="sm-title-block mb-5">Bill Gardner</h4>
-                            <h5 class="theme-color">Web designer</h5>
-
-                            <ul class="box-social mt-20">
-                              <li data-dsn="parallax"><a href="#">FB</a></li>
-                              <li data-dsn="parallax"><a href="#">TW</a></li>
-                              <li data-dsn="parallax"><a href="#">LN</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="team-item">
-                    <div class="team-item-inner">
-                      <div class="team-item-wapper background-section">
-                        <div class="item-content d-flex a-item-center">
-                          <div class="box-img">
-                            <img
-                              class="cover-bg-img"
-                              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                              data-dsn-src="assets/img/team/1.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <div class="box-text">
-                            <h4 class="sm-title-block mb-5">Jeremy Dupont</h4>
-                            <h5 class="theme-color">Creative Director</h5>
-
-                            <ul class="box-social mt-20">
-                              <li data-dsn="parallax"><a href="#">FB</a></li>
-                              <li data-dsn="parallax"><a href="#">TW</a></li>
-                              <li data-dsn="parallax"><a href="#">LN</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="team-item">
-                    <div class="team-item-inner">
-                      <div class="team-item-wapper background-section">
-                        <div class="item-content d-flex a-item-center">
-                          <div class="box-img">
-                            <img
-                              class="cover-bg-img"
-                              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                              data-dsn-src="assets/img/team/1.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <div class="box-text">
-                            <h4 class="sm-title-block mb-5">Angelo Walking</h4>
-                            <h5 class="theme-color">Developer Lead</h5>
-
-                            <ul class="box-social mt-20">
-                              <li data-dsn="parallax"><a href="#">FB</a></li>
-                              <li data-dsn="parallax"><a href="#">TW</a></li>
-                              <li data-dsn="parallax"><a href="#">LN</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </section>
@@ -2202,7 +1904,17 @@
                     <div class="logo-box-inner">
                       <img
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/1.png"
+                        data-dsn-src="assets/img/logo/07.png"
+                        alt="" width="120" height="w-auto"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="logo-box">
+                    <div class="logo-box-inner">
+                      <img
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-dsn-src="assets/img/logo/08.png"
                         alt=""
                       />
                     </div>
@@ -2212,71 +1924,12 @@
                     <div class="logo-box-inner">
                       <img
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/2.png"
+                        data-dsn-src="assets/img/logo/09.webp"
                         alt=""
                       />
                     </div>
                   </div>
 
-                  <div class="logo-box">
-                    <div class="logo-box-inner">
-                      <img
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/3.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <div class="logo-box-inner">
-                      <img
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/4.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <div class="logo-box-inner">
-                      <img
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/5.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <div class="logo-box-inner">
-                      <img
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/6.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <div class="logo-box-inner">
-                      <img
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/1.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="logo-box">
-                    <div class="logo-box-inner">
-                      <img
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-dsn-src="assets/img/logo/3.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             </section>
@@ -2370,14 +2023,14 @@
 
                   <div class="column-right">
                     <h5>
-                      2021 © Made with <span class="love">♥</span>by
+                      2024 © Made with <span class="love">♥</span>by
                       <a
                         class="link-hover"
                         data-hover-text="Design Grid."
                         target="_blank"
                         rel="nofollow"
-                        href="https://themeforest.net/user/design_grid/portfolio/"
-                        >Design Grid.</a
+                        href="#!"
+                        >Dsign Grid.</a
                       >
                     </h5>
                   </div>
